@@ -51,12 +51,19 @@ jupyter notebook "Data Preprocessing Project.ipynb"
 ```
 ## Project Workflow
 ### Analytical Questions Addressed:
-1. Fix Rating: Removed outliers and filled missing values.
-2. Fix Size: Unified size units and handled non-numeric values.
-3. Fix Price: Converted price data to numeric format.
-4. Fix Category: Validated and visualized app categories.
-5. Fix Android Version: Ensured consistency and visualized version requirements.
-6. Content Rating: Analyzed the target age group for apps.
+1. What is the most expensive app on the Play Store?
+2. Which genre has the highest number of apps?
+3. What is the average size of free vs. paid apps?
+4. What are the top 5 most expensive apps with a perfect rating (5)?
+5. How many apps have received more than 50K reviews?
+6. What is the average price of apps, grouped by genre and number of installs?
+7. How many apps have a rating higher than 4.7, and what is their average price?
+8. What is Google's estimated revenue from apps with 5,000,000+ installs?
+   (Assuming Google takes a 30% cut from app sales)
+9. What are the maximum and minimum sizes of free vs. paid apps?
+10. Is there a correlation between an app’s rating, number of reviews, size, and its price?
+11. How many apps exist for each type (free/paid) across different content ratings?
+12. How many apps are compatible with Android version 4.x?
    
 ## Visualizations:
 - Histograms and box plots for numerical columns like Rating, Size, and Price.
